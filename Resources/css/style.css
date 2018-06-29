@@ -63,6 +63,14 @@ a {
   margin: 0 auto;
   }
 
+.headers {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
   #tea {
     width: 1000px;
     display: flex;
@@ -71,4 +79,5 @@ a {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
+    justify-content: center;
   }
