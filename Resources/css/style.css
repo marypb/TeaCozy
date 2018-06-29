@@ -39,9 +39,22 @@ a {
   opacity: .9px;
   }
 
-
-
 .fall img, .rum img, .donuts img, .myrtle img, .bedford img {
   width: 300px;
   height: 200px;
+}
+
+#mission {
+  display: flex;
+  background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/TeaCozy/Resources/Images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+.missiontext {
+  background-color: black;
+  width: 700px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
 }
