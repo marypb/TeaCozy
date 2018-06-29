@@ -81,3 +81,16 @@ a {
     color: seashell;
     justify-content: center;
   }
+
+  #locations {
+    display: flex;
+    background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/TeaCozy/Resources/Images/img-locations-background.jpg");
+  }
+
+  /*.information {
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;*/
+  }
