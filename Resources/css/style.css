@@ -1,3 +1,29 @@
 body {background-color: black;}
 
+.navigation {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%
+}
+
+.navigation img {
+  height: 50px;
+  margin-left: 10px;
+  color: seashell;
+}
+
+.list {display: flex;
+align-content: flex-end;
+}
+
+ul {list-style-type: none;}
+
+li {
+  display: inline-block;
+  color: seashell;
+  }
+
+
+
 h2, h3, p {color: blue;}
