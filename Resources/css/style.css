@@ -1,11 +1,13 @@
-body {background-color: black;}
+body {
+  background-color: black;
+  padding: 0px;
+}
 
 .navigation {
   display: flex;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
-  flex-direction: row;
   /*position: fixed;*/
 }
 
@@ -15,12 +17,15 @@ body {background-color: black;}
   color: seashell;
 }
 
-.navigation ul {
+h2, h3, p {color: seashell;}
+
+ul {display: flex;}
+
+.list {
   display: flex;
+  width: 85%;
   justify-content: flex-end;
 }
-
-h2, h3, p {color: seashell;}
 
 li {
   display: inline;
@@ -28,7 +33,10 @@ li {
 
 a {
   color: seashell;
-  margin: 0 20px;
+  margin-left: 20px;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: .9px;
   }
 
 
