@@ -60,5 +60,15 @@ a {
   font-size: 22px;
   color: seashell;
   height: 100px;
-  justify-content: center;
+  margin: 0 auto;
+  }
+
+  #tea {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
   }
