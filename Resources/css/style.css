@@ -4,7 +4,8 @@ body {background-color: black;}
   display: flex;
   border-bottom: 1px solid seashell;
   height: 69px;
-  width: 100%
+  width: 100%;
+  /*position: fixed;*/
 }
 
 .navigation img {
@@ -14,16 +15,17 @@ body {background-color: black;}
 }
 
 .list {display: flex;
-align-content: flex-end;
 }
 
 ul {list-style-type: none;}
 
+h2, h3, p {color: blue;}
+
 li {
   display: inline-block;
   color: seashell;
-  }
-
-
-
-h2, h3, p {color: blue;}
+}
+.fall img, .rum img, .donuts img, .myrtle img, .bedford img {
+  width: 300px;
+  height: 200px;
+}
