@@ -5,6 +5,7 @@ body {background-color: black;}
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  flex-direction: row;
   /*position: fixed;*/
 }
 
@@ -14,17 +15,24 @@ body {background-color: black;}
   color: seashell;
 }
 
-.list {display: flex;
+.navigation ul {
+  display: flex;
+  justify-content: flex-end;
 }
 
-ul {list-style-type: none;}
-
-h2, h3, p {color: blue;}
+h2, h3, p {color: seashell;}
 
 li {
-  display: inline-block;
+  display: inline;
+  }
+
+a {
   color: seashell;
-}
+  margin: 0 20px;
+  }
+
+
+
 .fall img, .rum img, .donuts img, .myrtle img, .bedford img {
   width: 300px;
   height: 200px;
