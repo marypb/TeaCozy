@@ -87,11 +87,11 @@ a {
   margin-top: 75px;
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: 100%;
   }
 
   #tea {
-    /*width: 1000px;*/
+    width: 1000px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -100,6 +100,8 @@ a {
     color: seashell;
     justify-content: center;
     }
+
+.headers {width: 1000px;}
 
 .headers h2 {margin: 10px 0;}
 
@@ -134,7 +136,11 @@ a {
     height: 300px;
     flex-direction: column;
     margin-top: 15px;
+    justify-content: center;
+    align-items: center;
     }
+
+    /*.downtown p, .bayside p, .oakdale p {align-items: center;}*/
 
   .oakdale, .bayside {margin-left: 40px;}
 
