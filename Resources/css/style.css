@@ -80,7 +80,10 @@ a {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  margin-bottom: 20px;
 }
+
+#teasection {margin-top: 75px;}
 
   #tea {
     width: 1000px;
@@ -91,9 +94,16 @@ a {
     font-size: 22px;
     color: seashell;
     justify-content: center;
+    }
+
+.headers h2 {margin: 10px 0;}
+
+.headers p {
+  font-weight: bold;
+  margin: 10px 0;
   }
 
-  #locations {
+#locations {
     display: flex;
     background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/TeaCozy/Resources/Images/img-locations-background.jpg");
     height: 500px;
