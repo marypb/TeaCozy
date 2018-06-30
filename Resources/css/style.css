@@ -90,18 +90,29 @@ a {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
-
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
+.locations2 {
+  display: flex;
+}
   .downtown, .bayside, .oakdale {
-    display: flex;
+    display: inline-flex;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     width: 300px;
     height: 300px;
-  }
+    flex-direction: column;
+    margin-top: 15px;
+    }
+
+
+
+  .oakdale, .bayside {margin-left: 40px;}
 
   /*.information {
     display: flex;
