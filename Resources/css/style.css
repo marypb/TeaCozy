@@ -124,7 +124,8 @@ a {
 
 .locations2 {
   display: flex;
-}
+  }
+
   .downtown, .bayside, .oakdale {
     display: inline-flex;
     font-family: Helvetica;
@@ -137,9 +138,12 @@ a {
     margin-top: 15px;
     justify-content: center;
     align-items: center;
+    padding: auto;
     }
 
     .oakdale, .bayside {margin-left: 40px;}
+
+    .downtown p, .bayside p, .oakdale p {text-align: center;}
 
   footer {
     display: flex;
