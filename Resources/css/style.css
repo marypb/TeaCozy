@@ -1,6 +1,10 @@
 body {
   background-color: black;
   padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navigation {
@@ -8,7 +12,8 @@ body {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
-  /*position: fixed;*/
+  position: fixed;
+  background-color: black;
 }
 
 .navigation img {
@@ -89,7 +94,7 @@ a {
     display: flex;
     background-image: url("C:/Users/Mary/test/git_practice/marypb.github.io/TeaCozy/Resources/Images/img-locations-background.jpg");
     height: 500px;
-    background-size: cover;
+    width: 1200px;
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
