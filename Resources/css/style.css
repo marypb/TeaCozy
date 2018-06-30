@@ -83,10 +83,15 @@ a {
   margin-bottom: 20px;
 }
 
-#teasection {margin-top: 75px;}
+#teasection {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  }
 
   #tea {
-    width: 1000px;
+    /*width: 1000px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
