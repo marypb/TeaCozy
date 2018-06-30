@@ -61,11 +61,14 @@ a {
   color: seashell;
   height: 100px;
   margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
   }
 
 .headers {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
