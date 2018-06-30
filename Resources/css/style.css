@@ -24,8 +24,6 @@ body {
   color: seashell;
   }
 
-h2, h3, p {color: seashell;}
-
 ul {display: flex;}
 
 .list {
@@ -71,6 +69,9 @@ a {
   flex-direction: column;
   align-items: center;
   }
+
+  .missiontext h2 {margin: 10px 0;}
+  .missiontext h4 {margin: 10px 0;}
 
 .headers {
   display: flex;
