@@ -145,7 +145,12 @@ a {
 
     .oakdale, .bayside {margin-left: 40px;}
 
-    .downtown p, .bayside p, .oakdale p {text-align: center;}
+    .downtown p, .bayside p, .oakdale p {
+      text-align: center;
+      margin: auto;
+    }
+
+    .address {margin: auto;}
 
   footer {
     display: flex;
