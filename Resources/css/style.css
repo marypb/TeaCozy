@@ -117,6 +117,7 @@ a {
     height: 500px;
     width: 1200px;
     font-family: Helvetica;
+    font-weight: bold;
     font-size: 22px;
     color: seashell;
     flex-direction: column;
@@ -124,7 +125,7 @@ a {
     justify-content: center;
   }
 
-  #locations h2 {font-weight: bold;}
+#locations div {font-weight: bold;}
 
 .locations2 {
   display: flex;
@@ -144,6 +145,7 @@ a {
     justify-content: center;
     align-items: center;
     }
+
 
     .oakdale, .bayside {margin-left: 40px;}
 
